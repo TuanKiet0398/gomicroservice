@@ -3,22 +3,21 @@ package main
 import "fmt"
 
 const (
-	Sunday = 0
-	Monday = 1
-	Tuesday = 2
+	Sunday    = 0
+	Monday    = 1
+	Tuesday   = 2
 	Wednesday = 3
-	Thursday = 4
-	Friday = 5
-	Saturday = 6
+	Thursday  = 4
+	Friday    = 5
+	Saturday  = 6
 )
 
 type LogLevel int
 
 const (
-	LogError=0 LogLevel = iota
-	LogInfo=1
-	LogWarning=2
-	LogError=3
+	LogInfo LogLevel = iota
+	LogWarning
+	LogError
 )
 
 func main() {
