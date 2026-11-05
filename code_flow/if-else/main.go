@@ -1,0 +1,25 @@
+package main 
+
+
+func main() {
+	tmp := 25
+	if tmp > 20 {
+		println("tmp is greater than 20")
+	} else {
+		println("tmp is less than or equal to 20")
+	}
+
+	score := 85
+
+	if score >= 90 {
+		println("Grade: A")
+	} else if score >= 80 {
+		println("Grade: B")
+	} else if score >= 70 {
+		println("Grade: C")
+	} else if score >= 60 {
+		println("Grade: D")
+	} else {
+		println("Grade: F")
+	}
+}
